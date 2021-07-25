@@ -1,0 +1,18 @@
+body {
+    background-image: url(/imagenes/imagenfondo.png);
+    
+}
+.contenedorTitulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.nuestrosProductos {
+    margin: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
