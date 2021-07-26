@@ -53,8 +53,8 @@ h1 {
   text-align: center;
   text-shadow: 2px 2px 10px #336666;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 90%;
+  left: 10%;
 }
 
 .card-title {
@@ -64,13 +64,20 @@ h1 {
 }
 
 body {
-  background-image: url(/imagenes/imagenfondo.png);
+  background-image: url(/imagenes/imagenfondo-01.png);
+  background-size: cover;
 }
 
 .contenedorTitulo {
   position: absolute;
-  top: 0px;
+  top: 100px;
   left: 0px;
+  display: block;
+}
+
+.logoHead {
+  max-width: 100%;
+  height: auto;
 }
 
 .nuestrosProductos {

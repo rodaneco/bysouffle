@@ -1,11 +1,18 @@
 body {
-    background-image: url(/imagenes/imagenfondo.png);
-    
+    background-image: url(/imagenes/imagenfondo-01.png);
+    background-size: cover;
 }
 .contenedorTitulo {
     position: absolute;
-    top: 0px;
+    top: 100px;
     left: 0px;
+    display: block;
+ 
+}
+
+.logoHead {
+    max-width: 100%;
+    height: auto;
 }
 
 .nuestrosProductos {
