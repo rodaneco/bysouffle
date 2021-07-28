@@ -26,6 +26,12 @@ body {
     justify-content: space-between;
 }
 
+.imagenesProductos {
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+}
+
 .card mb-3 {
     display: flex;
     flex-direction: row;

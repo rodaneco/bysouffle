@@ -65,8 +65,9 @@ h1 {
 
 h2 {
   color: white;
-  font-size: 5em;
+  font-size: 5vw;
   padding: 30px;
+  font-family: Poppins;
 }
 
 body {
@@ -93,6 +94,12 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+
+.imagenesProductos {
+  display: flex;
+  flex-direction: row;
+  height: 200px;
 }
 
 .card mb-3 {
@@ -232,16 +239,21 @@ label {
 }
 
 .recetasSaladas {
-  background-color: #f25764;
+  background-color: #6fbfb7;
   padding: 30px;
   margin: 30px;
+  display: flex;
+  flex-direction: row;
 }
 
 .buscador {
   width: 30%;
-  display: flex;
-  justify-content: center;
+  align-items: center;
   margin: 30px;
+}
+
+.card h-100:hover {
+  transform: scale(2, 1);
 }
 
 main {

@@ -7,16 +7,22 @@
 }
 
 .recetasSaladas {
-    background-color: #f25764;
+    background-color: #6fbfb7;
     padding: 30px;
     margin: 30px;
+    display: flex;
+    flex-direction: row;
+  
     
     
 }
 
 .buscador {
     width: 30%;
-    display: flex;
-    justify-content: center;
+  align-items: center;
     margin: 30px;
+}
+
+.card h-100:hover {
+    transform: scale(2,1);
 }
