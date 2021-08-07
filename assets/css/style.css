@@ -71,7 +71,7 @@ h2 {
 }
 
 body {
-  background-image: url(/imagenes/imagenfondo-01.png);
+  
   background-size: cover;
   background-color: #993333;
 }
@@ -97,9 +97,14 @@ body {
 }
 
 .imagenesProductos {
+  background-color: #FFF;
+  padding: 30px;
   display: flex;
   flex-direction: row;
-  height: 200px;
+  flex-wrap: wrap;
+  justify-content: wrap;
+  justify-content: space-between;
+  
 }
 
 .card mb-3 {
