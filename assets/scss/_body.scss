@@ -29,10 +29,19 @@ body {
 .imagenesProductos {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 10px;
     
 }
 
 .card mb-3 {
     display: flex;
     flex-direction: row;
+
+}
+
+.descripcionProductos {
+    padding: 30px;
+    margin: 30px;
 }
