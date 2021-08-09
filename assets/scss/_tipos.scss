@@ -1,15 +1,25 @@
 h1 {
-    color: #6fbfb7;
-    font-size: 2em;
+    color: #fff;
+    font-size: 5vw;
     font-family: Poppins;
-    font-style: bold;
-    font-weight: 400;
-    text-align: center;
-    text-shadow: 2px 2px 10px #336666;
     position: absolute;
-    top: 90%;
-    left: 10%;
+    top: 20%;
+    right: 0px;
+    text-align: right;
     
+    margin: 0px;
+    padding: 30px;
+    
+}
+
+.encabezadoRecetas {
+    color: #fff;
+    font-size: 5vw;
+    font-family: Poppins;
+    right: 0px;
+    text-align: right;
+    margin: 0px;
+    padding: 30px;
 }
 
 .card-title {

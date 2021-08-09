@@ -1,13 +1,12 @@
 body {
-    background-image: url(/imagenes/imagenfondo-01.png);
-    
     background-size: cover;
-    background-color: #993333;
+    background-image: linear-gradient(#336666, #6fbfb7);
+    background-repeat: no-repeat;
 }
 .contenedorTitulo {
     position: absolute;
     top: 100px;
-    left: 100px;
+    
 
 
 }
@@ -17,7 +16,7 @@ body {
     height: auto;
 }
 
-.nuestrosProductos {
+.novedades {
     margin: 20px;
     padding: 50px;
     display: flex;

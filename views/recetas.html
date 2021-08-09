@@ -17,108 +17,77 @@
 </head>
 <body>
   <header>
-    <div class="main-nav">
-        <a href="/index.html">
-            <img src="/imagenes/LOGO-NUEVO1.png" alt="Inicio" class=main-nav__logo>
-        </a>
-        <nav class="main-nav__list">
-            <ul class="main-nav__item">
-                <li class="main-nav__link">
-                    <a href="/views/productos.html">Productos</a>
-                </li>
-                <li class="main-nav__link">
-                    <a href="/views/recetas.html">Recetas</a>
-                </li>
-                <li class="main-nav__link">
-                    <a href="/views/contacto.html">Contacto</a>
-                </li>
-            </ul>
-        </nav>
-    </div>
-</header>
-    <main class="encabezadoRecetas">
-        <img src="/imagenes/logohead-02.png" alt="" width="100%">
-    </main>
-    <div class="buscador">
-        <div class="input-group rounded">
-            <input type="search" class="form-control rounded" placeholder="Qué ingredientes tenés?" aria-label="Search"
-              aria-describedby="search-addon" />
-            <span class="input-group-text border-0" id="search-addon">
-              <i class="fas fa-search"></i>
-            </span>
-          </div>
-    </div>
-    <section class="recetasDulces">
-        <h2>recetas dulces</h2>
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <a href="#">
-                <img src="/imagenes/recetasdulces1.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <h5 class="card-title">Cheescake</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <a href="#">
-                <img src="/imagenes/recetasdulces2.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a short card.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <a href="#">
-                <img src="/imagenes/recetasdulces3.jpg" class="card-img-top" alt="..."></a>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
+    <div class="topnav" id="myTopnav">
 
-        </div>
-    </section>
-    <section class="recetasSaladas">
-      <h2>recetas saladas</h2>
-      <div class="row row-cols-1 row-cols-md-3 g-4">
-          <div class="col">
-            <div class="card h-100">
-              <a href="#">
-              <img src="/imagenes/recetassaladas1.jpg" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <a href="#">
-              <img src="/imagenes/recetassaladas2.jpg" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a short card.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card h-100">
-              <a href="#">
-              <img src="/imagenes/recetassaladas3.jpg" class="card-img-top" alt="..."></a>
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-              </div>
-            </div>
-          </div>
-          
+        <a href="/index.html" class="active"><img src="/imagenes/logohead-02.png" alt="" class="imgHome"></a>
+        <a href="/views/productos.html">Productos</a>
+        <a href="/views/recetas.html">Recetas</a>
+        <a href="/views/contacto.html">Contacto</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      
+    </div>
+
+</header>
+  <div class="encabezadoRecetas">
+    <h2>
+      Nada más rico 
+      <br>
+      que una comida 
+      <br>
+      hecha en casa ♡
+  </h2>
+  </div>
+
+  <div class="buscador">
+    <div class="input-group rounded">
+        <input type="search" class="form-control rounded" placeholder="Qué ingredientes tenés?" aria-label="Search"
+          aria-describedby="search-addon" />
+        <span class="input-group-text border-0" id="search-addon">
+          <i class="fas fa-search"></i>
+        </span>
       </div>
+</div>
+
+  <section class="recetasDulces">
+
+    <div class="row"> 
+      <div class="column">
+          <div class="container">
+            <img src="/imagenes/recetasdulces1.jpg" class="image">
+            <a href=""><div class="overlay">
+              <div class="text">Cheescake</div>
+            </div>
+          </div></a>
+        <a href=""><img src="/imagenes/recetasdulces2.jpg" style="width:100%"></a>
+       
+        <a href=""><img src="/imagenes/recetasdulces3.jpg" style="width:100%"></a>
+       
+        <a href=""><img src="/imagenes/recetasdulces4.jpg" style="width:100%"></a>
+
+     </div>
+
+      <div class="column">
+        <a href=""><img src="/imagenes/recetasdulces6.jpg" style="width:100%"></a>
+        <a href=""><img src="/imagenes/recetasdulces5.jpg" style="width:100%"></a>
+        <a href=""><img src="/imagenes/recetasdulces8.jpg" style="width:100%"></a>
+        <a href=""><img src="/imagenes/recetasdulces7.jpg" style="width:100%"></a>
+      </div>  
+      <div class="column">
+        <a href=""><img src="/imagenes/recetassaladas1.jpg" style="width:100%"></a>
+        <a href=""><img src="/imagenes/recetassaladas2.jpg" style="width:100%"></a>
+        <a href=""><img src="/imagenes/recetassaladas3.jpg" style="width:100%"></a>
+        <a href=""><img src="/imagenes/recetassaladas4.jpg" style="width:100%"></a>
+      </div>
+      <div class="column">
+        <a href=""><img src="/imagenes/recetassaladas5.jpg" style="width:100%"></a>
+        <a href=""><img src="/imagenes/recetassaladas6.jpg" style="width:100%"></a>
+        <a href=""><img src="/imagenes/recetassaladas7.jpg" style="width:100%"></a>
+        <a href=""><img src="/imagenes/recetassaladas8.jpg" style="width:100%"></a>
+
+      </div>
+    </div>
   </section>
 
             		<!-- BOOTSTRAP LIKNS DINÁMICOS -->

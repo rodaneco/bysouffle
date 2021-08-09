@@ -12,9 +12,7 @@
     margin: 30px;
     display: flex;
     flex-direction: row;
-  
-    
-    
+
 }
 
 .buscador {
@@ -23,6 +21,79 @@
     margin: 30px;
 }
 
-.card h-100:hover {
-    transform: scale(2,1);
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
+
+/* Cuatro columnas */
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Dos columnas en vez de cuatro */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Uno arriba del otro en vez de las dos columnas */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.container {
+    position: relative;
+  }
+
+  .image {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+  }
+
+  .container:hover .overlay {
+    opacity: 0.5;
+  }
+
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
