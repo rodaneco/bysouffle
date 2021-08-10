@@ -21,18 +21,59 @@
     margin: 30px;
 }
 
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  
+}
+
+.container:hover .overlay {
+  opacity: 1;
+  
+}
+
+.text {
+  color: white;
+  
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 .row {
-  display: -ms-flexbox; /* IE10 */
   display: flex;
-  -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Cuatro columnas */
+/* Create four equal columns that sits next to each other */
 .column {
-  -ms-flex: 25%; 
-  flex: 25%;
+  flex: 100%;
   max-width: 25%;
   padding: 0 4px;
 }
@@ -40,60 +81,26 @@
 .column img {
   margin-top: 8px;
   vertical-align: middle;
-  width: 100%;
 }
 
-/* Dos columnas en vez de cuatro */
-@media screen and (max-width: 800px) {
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
   .column {
-    -ms-flex: 50%;
     flex: 50%;
     max-width: 50%;
   }
 }
 
-/* Uno arriba del otro en vez de las dos columnas */
-@media screen and (max-width: 600px) {
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
   .column {
-    -ms-flex: 100%;
     flex: 100%;
     max-width: 100%;
   }
 }
 
-.container {
-    position: relative;
-  }
-
-  .image {
-    display: flex;
-    width: 100%;
-    height: auto;
-  }
-
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: black;
-  }
-
-  .container:hover .overlay {
-    opacity: 0.5;
-  }
-
-  .text {
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+.contenedorRecetas {
+  background-color: #f25764;
+  margin: 30px;
+  padding: 30px;
+}
