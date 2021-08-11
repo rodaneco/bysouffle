@@ -74,7 +74,7 @@
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 100%;
-  max-width: 25%;
+  max-width: 50%;
   padding: 0 4px;
 }
 
@@ -103,4 +103,6 @@
   background-color: #f25764;
   margin: 30px;
   padding: 30px;
+  display: flex;
+  justify-content: center;
 }
